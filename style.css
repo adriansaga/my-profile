@@ -1,0 +1,116 @@
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+img {
+    max-width:30%;
+    height:auto;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(221, 222, 202);
+    text-align: center;
+}
+
+li {
+    text-decoration: none;
+
+}
+
+.container{ 
+    width: 700px;
+    margin: 0 auto;
+}
+
+
+.card{
+    margin: 60px ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:0 10px 10px rgba(0,0,0,0.1);
+    background-color: #D4A373;
+}
+
+.cards{margin: 60px ;
+    padding: 32px;
+    background-color: rgb(240,235,210);
+
+    border-radius: 10px;
+    box-shadow:0 10px 10px; rgb(0,0,0,0.1)
+}
+.Button{
+  background-color: rgb(240,235,210);
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    width: 100px; 
+    margin: 0 auto;
+    height:auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:0 10px 10px; rgb(0,0,0,0.1);
+    text-decoration: none;
+   
+    }
+    
+    .Button:hover {
+        background-color: #34272a;
+    }
+
+    .icones{
+        list-style: none;
+        padding-left: 0px;
+        
+    }
+    .icones li {
+        display:inline ;
+        padding: 10px; 
+        
+    }
+    .icones i {
+        font-size: 50px;
+        color: rgb(79, 106, 170)
+        
+    }
+    .icones i:hover { 
+        font-size: 50px;
+        color: rgb(230,230,230);
+    }
+
+  .mail {
+    background-color: rgb(240,235,210);
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    width: 100px; 
+    margin: 0 auto;
+    height:auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:0 10px 10px; rgb(0,0,0,0.1)
+}
+@media(max-width:950px){
+    .container 
+    { width: 700px;}
+}
+    @media
+    (max-width:670px){
+        .container 
+        { width: 500px;}
+    }
+    .Button:hover
+    background-color: #D4A373 ;
+
+    .carde { margin: 60px ;
+        padding: 32px;
+        background-color: rgb(161, 148, 84);
+    
+        border-radius: 10px;
+        box-shadow:0 10px 10px; rgb(0,0,0,0.1)
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
+   
